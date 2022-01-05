@@ -1,0 +1,204 @@
+/* Importando Fonts Externas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Resentando CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis */
+:root {
+    --background: #202124;
+    --cell-size: 100px;
+    --mark-size: calc( var(--cell-size) * 0.9);
+}
+
+body {
+    background: var(--background);
+}
+
+header{
+    font-size:  12pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    margin: 64px 0px;
+}
+
+main.end{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    letter-spacing: 1pt;
+    color: aqua;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px white solid;
+    
+    /* Retirando as bordas externas */
+    border-top: none;
+    border-right: none ;
+
+    /* Simbolos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+/* Retirando as bordas externas */
+.cell:nth-child(3n+1){
+    border-left: none;
+}
+
+/* Retirando as bordas externas */
+.cell:nth-child(n+7){
+    border-bottom: none;
+}
+
+
+/* Criando e configurando o comportamento do X */
+
+.cell.x::before,
+.cell.x::after {
+    background-color: white;
+}
+
+.board.x .cell:not(.x):not(.o):hover::before,
+.board.x .cell:not(.x):not(.o):hover::after {
+    background-color: #3d3d3d;
+}
+
+.board.x .cell:not(.x):not(.o):hover::before,
+.board.x .cell:not(.x):not(.o):hover::after,
+.cell.x::before,
+.cell.x::after {
+    content: "";
+    width: calc(var(--mark-size) * 0.15);
+    height: var(--mark-size);
+
+    
+
+    position: absolute;
+}
+
+.board.x .cell:not(.x):not(.o):hover::before,
+.cell.x::before {
+    transform: rotate(45deg);
+}
+
+.board.x .cell:not(.x):not(.o):hover::after,
+.cell.x::after {
+    transform: rotate(-45deg);
+}
+
+
+/* Criando e configurando o comportamento do círculo */
+
+.cell.o::before
+{
+    background-color: white;
+}
+
+
+.board.o .cell:not(.x):not(.o):hover::before,
+.board.o .cell:not(.x):not(.o):hover::after {
+    background-color: #3d3d3d;
+}
+
+
+.board.o .cell:not(.x):not(.o):hover::before,
+.board.o .cell:not(.x):not(.o):hover::after,
+.cell.o::before, 
+.cell.o::after {
+    content: "";
+    width: var(--mark-size);
+    height: var(--mark-size);
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+.board.o .cell:not(.x):not(.o):hover::before,
+.cell.o::before {
+    width: calc(var(--mark-size) * 0.9);
+    height: calc(var(--mark-size) * 0.9);
+}
+
+.board.o .cell:not(.x):not(.o):hover::after,
+.cell.o::after {
+    width: calc(var(--mark-size) * 0.6);
+    height: calc(var(--mark-size) * 0.6);
+
+    background-color: var(--background);
+}
+
+/* Determina que as células já marcadas nao são clicáveis */
+.cell.x,
+.cell.o {
+    cursor: not-allowed;
+}
+
+/* Mensagem final */
+.game-end-message{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size:  18pt;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.game-end-message button {
+    font-size: 12pt;
+    font-weight: 100;
+    color: white;
+
+    background-color: var(--background);
+    border-radius: 15px;
+    border: 1px solid white;
+
+    margin: 8px;
+    padding: 8px;
+
+    cursor: pointer;
+}
+
+.game-end-message button:hover{
+    filter: brightness(130%);
+}
+
+.game-end-message.show {
+    display: flex;
+}
