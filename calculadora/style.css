@@ -22,6 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 
 .calculadora{
@@ -91,3 +92,11 @@ button:focus{
 #valor-anterior{
     font-size: 2em;
 }
+
+/* footer p {
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    color: #00916e;
+    text-align: center;
+} */
