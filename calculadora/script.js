@@ -21,3 +21,4 @@ botoesOperadores.forEach(botao => {
         display.computar(botao.value);
     });
 });
+

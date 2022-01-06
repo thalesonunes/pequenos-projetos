@@ -47,7 +47,9 @@ class Display {
 
     imprimirValores() {
         this.displayValorAtual.textContent = this.valorAtual;
-        this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.sinais[this.tipoOperacao] || ''}`;
+        // usando sintaxe de interpolação com variável
+        // e se a varial não existir será passado o valor vazio 
+        this.displayValorAnterior.textContent = `${this.valorAnterior} ${this.sinais[this.tipoOperacao] || ''}`; 
     }
 
     calcular(){
