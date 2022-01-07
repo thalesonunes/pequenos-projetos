@@ -1,5 +1,6 @@
 /* Importando Fonts Externas */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 /* Resetando CSS */
 * {
@@ -16,13 +17,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
+}
+
+#titulo{
+    font-size: 36px;
+}
+#subtitulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 1pt;
 }
 
 .pw-container{
     background-color: rgb(46, 12, 80);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    min-width: 400px;
+    box-shadow: 7px 7px 0px 5px #00000033;
+    min-width: 360px;
     border-radius: 5%;
 }
 
@@ -57,17 +69,34 @@ body{
     right: 0;
 
     opacity: 0;
-    transform: translate(0, 65%);
+    transform: translate(-25%, -25%);
     transition: opacity 0.2s ease, transform 0.2s ease; */
 }
 
 .pw:hover button{
     opacity: 1;
-    transform: translate(0, 75%);
+    transform: translate(-25%, 0%);
 }
 
 .pw-body{
-    padding: 0 1rem 1rem;
+    padding: 0 2rem 2rem;
+}
+
+.pw-body label{
+    font-size: 14px;
+}
+
+.pw-body #len{
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px 0;
+    width: 40px;
+}
+
+.pw-body #len:focus{
+    outline: none;
 }
 
 .form-control{
@@ -90,4 +119,18 @@ body{
     margin-top: 1rem;
     width: 100%;
     border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #00000033;
+}
+
+.generate:active{
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+
+#rodape{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1pt;
+    font-weight: 100;
 }

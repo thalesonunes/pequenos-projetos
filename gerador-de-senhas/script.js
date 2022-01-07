@@ -30,36 +30,40 @@ function getSymbol() {
 
 function generatePassword() {
 
-    // const len = lenEl.value;
-    const len = 12;
+    const len = lenEl.value;
 
     let password = "";
 
-    if (upperEl.checked) {
-        password += getUppercase();
-    }
+    // if (upperEl.checked) {
+    //     password += getUppercase();
+    // }
 
-    if (lowerEl.checked) {
-        password += getLowercase();
-    }
+    // if (lowerEl.checked) {
+    //     password += getLowercase();
+    // }
 
-    if (numberEl.checked) {
-        password += getNumber();
-    }
+    // if (numberEl.checked) {
+    //     password += getNumber();
+    // }
 
-    if (symbolEL.checked) {
-        password += getSymbol();
-    }
+    // if (symbolEL.checked) {
+    //     password += getSymbol();
+    // }
 
-    for (let i = password.length; i > len; i++) {
+    for (let i = password.length; i < len; i++) {
         const x = generateX();
         password += x;
     }
 
-    pwEl.innerText = password;
+    if(password === ""){
+        pwEl.innerText = "Selecione algum caractere!";
+    }else{
+        pwEl.innerText = password;
+    }
+    
 }
 
-function genenateX() {
+function generateX() {
     const xs = [];
 
     if (upperEl.checked) {
@@ -79,12 +83,8 @@ function genenateX() {
     }
 
     if (xs.length === 0) return "";
-
+  
     return xs[Math.floor(Math.random() * xs.length)];
-
-    // console.log(Math.random() * xs.length);
-    //return Math.random() * xs.length;
-
 }
 
 generateEL.addEventListener("click", generatePassword);
