@@ -27,6 +27,43 @@ body {
     background-color: #5372f0;
 }
 
+.bg-full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: bgSlide 30s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url(bg-images/001.jpg);
+}
+
+@keyframes bgSlide {
+    0% {
+        background-image: url(bg-images/001.jpg);
+    }
+    20% {
+        background-image: url(bg-images/002.jpg);
+    }
+    40% {
+        background-image: url(bg-images/003.jpg);
+    }
+    60% {
+        background-image: url(bg-images/004.jpg);
+    }
+    80% {
+        background-image: url(bg-images/005.jpg);
+    }
+    100% {
+        background-image: url(bg-images/001.jpg);
+    }
+}
+
 .wrapper{
     width: 605px;
     background-color: #fff;
@@ -137,11 +174,29 @@ body {
 }
 
 .features button:hover{
-    filter: brightness(125%);
+    filter: brightness(155%);
 }
 
 button.loading{
     opacity: 0.7s;
     pointer-events: none;
     background-color: purple;
+}
+
+/* LINGUA ATIVA */
+.lang{
+    border: #D94C1A;
+}
+
+.lang-on {
+    background-color: #5372f0;
+    
+}
+
+.lang-on:hover {
+    filter: brightness(150%);
+}
+
+.lang-on i {
+    color: white;
 }
