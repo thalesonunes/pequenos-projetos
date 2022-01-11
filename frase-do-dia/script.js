@@ -1,4 +1,5 @@
 // Referenciando elementos em váriaveis
+const pageTitle = document.querySelector("#page-title");
 const title = document.querySelector("#title");
 const quoteText = document.querySelector(".quote");
 const quoteBtn = document.querySelector("button");
@@ -70,6 +71,7 @@ function randomQuote() {
 englishBtn.addEventListener("click", () => {
     language = "en-US";
     languageSpeed = 0.7;
+    pageTitle.innerText = "Quote of the Day!";
     englishBtn.classList.add("lang-on");
     portugueseBtn.classList.remove("lang-on");
     randomQuote();
@@ -79,6 +81,7 @@ englishBtn.addEventListener("click", () => {
 portugueseBtn.addEventListener("click", () => {
     language = "pt-BR";
     languageSpeed = 0.9;
+    pageTitle.innerText = "Frase do Dia!";
     portugueseBtn.classList.add("lang-on");
     englishBtn.classList.remove("lang-on");
     randomQuote();
