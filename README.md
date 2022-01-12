@@ -20,16 +20,6 @@ Este repositório está em constante atualização!  :wink:
 
 ###  :rocket: Contato:
 
-Alguma dúvida, crítica ou elogio?
-Não hesite em entrar em contato. 
-Será um prazer conversar a respeito!
+Alguma dúvida, crítica ou elogio? Não hesite em entrar em contato. Será um prazer conversar a respeito!
 
-<img src="https://thalesnunes.com.br/github/whatsapp.svg" width="30"> [Whatsapp](https://api.whatsapp.com/send?phone=5535997438652)
-<img src="https://thalesnunes.com.br/github/email.svg" width="30"> [E-mail](mailto:thales.o.nunes@gmail.com)
-
-
-
-
-
-
-
+<img src="https://thalesnunes.com.br/github/whatsapp.svg" width="30"> [Whatsapp](https://api.whatsapp.com/send?phone=5535997438652)   <img src="https://thalesnunes.com.br/github/email.svg" width="30"> [E-mail](mailto:thales.o.nunes@gmail.com)
