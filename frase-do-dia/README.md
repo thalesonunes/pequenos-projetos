@@ -14,5 +14,5 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 #### Recursos utilizados:
 
 - É consumido uma API que gera randomicamente uma frase em inglês.
-- É consumido um arquivo .JSON criado no Realtime Database do Firebase, que contém várias frases em português,. Foi preciso então percorrer uma lista e selecionar uma frase aleatoriamente. Este arquivo futuramente será gerenciada através de uma API própria.
+- É consumido um arquivo .JSON criado no Realtime Database do Firebase, que contém várias frases em português. Foi preciso então percorrer uma lista e selecionar uma frase aleatoriamente. Este arquivo futuramente será gerenciado através de uma API própria.
 - Utilização do SpeechSynthesisUtterance para fazer a leitura das frases.
