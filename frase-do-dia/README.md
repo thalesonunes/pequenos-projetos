@@ -23,3 +23,6 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
 <img src="gif-animado.gif"> </img>
 
+#### Link de acesso:
+
+[Clique aqui](https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/)
