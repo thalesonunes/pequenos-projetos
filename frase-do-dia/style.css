@@ -8,7 +8,7 @@
     --grey: #A4A68A;
     --dark: #57523E;
     --tomate: #D94C1A;
-    --yellow: #F2BE24;
+    --yellow: #F2BE24; 
 }
 
 /* Resetando CSS */
@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: bgSlide 30s linear infinite 0s;
+    animation: bgSlide 60s linear infinite 0s;
     animation-timing-function: ease-in-out;
     background-image: url(bg-images/001.jpg);
 }
@@ -47,17 +47,32 @@ body {
     0% {
         background-image: url(bg-images/001.jpg);
     }
-    20% {
+    10% {
         background-image: url(bg-images/002.jpg);
     }
-    40% {
+    20% {
         background-image: url(bg-images/003.jpg);
     }
-    60% {
+    30% {
         background-image: url(bg-images/004.jpg);
     }
-    80% {
+    40% {
         background-image: url(bg-images/005.jpg);
+    }
+    50% {
+        background-image: url(bg-images/006.jpg);
+    }
+    60% {
+        background-image: url(bg-images/007.jpg);
+    }
+    70% {
+        background-image: url(bg-images/008.jpg);
+    }
+    80% {
+        background-image: url(bg-images/009.jpg);
+    }
+    90% {
+        background-image: url(bg-images/010.jpg);
     }
     100% {
         background-image: url(bg-images/001.jpg);
@@ -183,6 +198,12 @@ button.loading{
     background-color: purple;
 }
 
+.lang-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* LINGUA ATIVA */
 .lang{
     border: #D94C1A;
@@ -199,4 +220,78 @@ button.loading{
 
 .lang-on i {
     color: white;
+}
+
+
+/* =================================================================== */
+
+@media (max-width: 600px)
+{
+    .wrapper{
+        width: 90%;
+        padding: 20px 15px 20px 15px;
+    }
+
+    .wrapper header{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .wrapper .content{
+        margin: 20px 0;
+    }
+    
+    .quote-area i{
+        font-size: 14px;
+    }
+    
+    .quote-area i:first-child{
+        text-align:left;
+    }
+    
+    .quote-area i:last-child{
+        text-align:right;
+    }
+    
+    .quote-area .quote{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .content .author{
+        font-size: 12px;
+        justify-content: center;
+        font-weight: 900;
+    }
+    
+    .author span:first-child{
+        display: none;
+    }
+       
+    .buttons .features{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+     
+    
+    .features ul li{
+        margin: 0 2px;
+        height: 32px;
+        width: 32px;
+    }
+    
+    .features button{
+        margin-top: 20px;
+        font-size: 12px;
+        height: 35px;
+        padding: 0px 22px;
+    }
 }

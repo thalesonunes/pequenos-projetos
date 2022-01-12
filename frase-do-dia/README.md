@@ -1,7 +1,7 @@
 # Frase do Dia / Quote of the Day
 O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
-# <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/><img src="https://img.icons8.com/color/48/000000/css3.png"/>![https://img.icons8.com/color/48/000000/javascript--v1.png](https://img.icons8.com/color/48/000000/javascript--v1.png)<img src="https://img.icons8.com/color/48/000000/json--v1.png"/><img src="https://img.icons8.com/color/48/000000/api.png"/>
+#   <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
 
 #### Funcionalidades:
 
@@ -15,4 +15,8 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
 - É consumido uma API que gera randomicamente uma frase em inglês.
 - É consumido um arquivo .JSON criado no Realtime Database do Firebase, que contém várias frases em português. Foi preciso então percorrer uma lista e selecionar uma frase aleatoriamente. Este arquivo futuramente será gerenciado através de uma API própria.
-- Utilização do SpeechSynthesisUtterance para fazer a leitura das frases.
+- SpeechSynthesisUtterance para fazer a leitura das frases.
+- Background com transição de imagens.
+- Design responsivo.
+
+<img src="gif-animado.gif"> </img>
