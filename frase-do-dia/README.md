@@ -19,4 +19,7 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - Background com transição de imagens.
 - Design responsivo.
 
+#### Preview:
+
 <img src="gif-animado.gif"> </img>
+
