@@ -25,4 +25,7 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
 #### Link de acesso:
 
-[Clique aqui](https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/)
+<a href="[url](https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/)" target="_blank">Clique aqui...</a>
+
+
+
