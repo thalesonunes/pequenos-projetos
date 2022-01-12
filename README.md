@@ -2,9 +2,12 @@
 
 # Pequenos projetos 
 
-Repositório dedicado a pequenos projetos desenvolvidos como exercícios
+Repositório dedicado a pequenos projetos desenvolvidos para praticar alguns conhecimentos adquiridos em cursos, tutoriais ou leituras diversas.
+Este repositório está em constante atualização!  :wink:
 
-#### Projetos
+------
+
+### :rocket: Projetos
 
 - [Calculadora]( https://github.com/thalesonunes/pequenos-projetos/tree/main/calculadora/ )
 - [Cronômetro]( https://github.com/thalesonunes/pequenos-projetos/tree/main/cronometro/ )
@@ -13,7 +16,9 @@ Repositório dedicado a pequenos projetos desenvolvidos como exercícios
 - [Jogo da Velha]( https://github.com/thalesonunes/pequenos-projetos/tree/main/jogo-da-velha/ )
 - [Lista de Tarefas]( https://github.com/thalesonunes/pequenos-projetos/tree/main/lista-de-tarefas/ )
 
-####  Contato:
+------
+
+###  :rocket: Contato:
 
 Algum dúvida, elogio ou crítica?
 Não exite em entrar em contato. 

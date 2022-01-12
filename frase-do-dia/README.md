@@ -1,14 +1,18 @@
 # ![Header]( https://thalesnunes.com.br/github/header.png )
 
-#  Frase do Dia / Quote of the Day
+#  Frase do Dia! / Quote of the Day!
 
 O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
-Link de acesso:
+------
+
+### :rocket: Link de acesso:
 
 <a href="https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/" target="_blank">Clique aqui...</a>
 
-Funcionalidades:
+------
+
+### :rocket: Funcionalidades:
 
 # <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
 
@@ -18,7 +22,9 @@ Funcionalidades:
 - Compartilhar via Twitter.
 - Gerar novas frases.
 
-Recursos utilizados:
+------
+
+### :rocket: Recursos utilizados:
 
 - É consumido uma API que gera randomicamente uma frase em inglês.
 - É consumido um arquivo .JSON criado no Realtime Database do Firebase, que contém várias frases em português. Foi preciso então percorrer uma lista e selecionar uma frase aleatoriamente. Este arquivo futuramente será gerenciado através de uma API própria.
@@ -26,11 +32,15 @@ Recursos utilizados:
 - Background com transição de imagens.
 - Design responsivo.
 
-Preview:
+------
+
+### :rocket: Preview:
 
 <img src="gif-animado.gif"> </img>
 
-Contato:
+------
+
+### :rocket: Contato:
 
 Algum dúvida, elogio ou crítica? 
 
