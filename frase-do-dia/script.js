@@ -30,7 +30,7 @@ function randomQuote() {
 
             const frases = Object.values(result);
             indexAleatorio = Math.floor(Math.random() * frases.length);
-         
+
             frases.forEach(function (item, index) {
 
                 if (index === indexAleatorio) {

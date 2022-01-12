@@ -1,7 +1,7 @@
 # Frase do Dia / Quote of the Day
 O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
-#   <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
+# <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
 
 #### Funcionalidades:
 
@@ -19,13 +19,15 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - Background com transição de imagens.
 - Design responsivo.
 
+#### Link de acesso:
+
+<a href="https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/" target="_blank">Clique aqui...</a>
+
 #### Preview:
 
 <img src="gif-animado.gif"> </img>
 
-#### Link de acesso:
 
-<a href="https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/" target="_blank">Clique aqui...</a>
 
 
 
