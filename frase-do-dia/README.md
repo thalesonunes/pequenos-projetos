@@ -1,11 +1,16 @@
 # ![Header]( https://thalesnunes.com.br/github/header.png )
 
-# Frase do Dia / Quote of the Day
+#  Frase do Dia / Quote of the Day
+
 O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
-# <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
+#### :point_right: Link de acesso:
 
-#### Funcionalidades:
+<a href="https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/" target="_blank">Clique aqui...</a>
+
+#### :point_right: Funcionalidades:
+
+# <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
 
 - Selecionar entre frases em português e inglês.
 - Ouvir a frase.
@@ -13,7 +18,7 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - Compartilhar via Twitter.
 - Gerar novas frases.
 
-#### Recursos utilizados:
+#### :point_right: Recursos utilizados:
 
 - É consumido uma API que gera randomicamente uma frase em inglês.
 - É consumido um arquivo .JSON criado no Realtime Database do Firebase, que contém várias frases em português. Foi preciso então percorrer uma lista e selecionar uma frase aleatoriamente. Este arquivo futuramente será gerenciado através de uma API própria.
@@ -21,13 +26,21 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - Background com transição de imagens.
 - Design responsivo.
 
-#### Link de acesso:
-
-<a href="https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/" target="_blank">Clique aqui...</a>
-
-#### Preview:
+#### :point_right: Preview:
 
 <img src="gif-animado.gif"> </img>
+
+#### :point_right: Contato:
+
+Algum dúvida, elogio ou crítica? 
+
+Não exite em entrar em contato. 
+
+Será um prazer conversar a respeito!
+
+<img src="https://thalesnunes.com.br/github/whatsapp.svg" width="35"> [Clique Aqui](https://api.whatsapp.com/send?phone=5535997438652)
+
+
 
 
 
