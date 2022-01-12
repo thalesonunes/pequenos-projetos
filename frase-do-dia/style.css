@@ -27,6 +27,26 @@ body {
     background-color: #5372f0;
 }
 
+/* PRÉ LOAD DAS IMAGENS DE BACKGROUD */
+body::after{
+    
+    /* esconde as imagens */
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+
+    /* load images */
+    content:
+        url(bg-images/001.jpg)  
+        url(bg-images/002.jpg)  
+        url(bg-images/003.jpg)  
+        url(bg-images/004.jpg)  
+        url(bg-images/005.jpg)  
+        url(bg-images/006.jpg)  
+        url(bg-images/007.jpg)  
+        url(bg-images/008.jpg)  
+        url(bg-images/009.jpg)  
+        url(bg-images/010.jpg);
+ }
+
 .bg-full{
     display: flex;
     align-items: center;
@@ -38,7 +58,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: bgSlide 60s linear infinite 0s;
+    animation: bgSlide 60s linear infinite 5s;
     animation-timing-function: ease-in-out;
     background-image: url(bg-images/001.jpg);
 }
