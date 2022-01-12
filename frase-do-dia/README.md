@@ -4,11 +4,11 @@
 
 O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
-#### :point_right: Link de acesso:
+Link de acesso:
 
 <a href="https://thalesnunes.com.br/pequenos-projetos/frase-do-dia/" target="_blank">Clique aqui...</a>
 
-#### :point_right: Funcionalidades:
+Funcionalidades:
 
 # <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
 
@@ -18,7 +18,7 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - Compartilhar via Twitter.
 - Gerar novas frases.
 
-#### :point_right: Recursos utilizados:
+Recursos utilizados:
 
 - É consumido uma API que gera randomicamente uma frase em inglês.
 - É consumido um arquivo .JSON criado no Realtime Database do Firebase, que contém várias frases em português. Foi preciso então percorrer uma lista e selecionar uma frase aleatoriamente. Este arquivo futuramente será gerenciado através de uma API própria.
@@ -26,11 +26,11 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - Background com transição de imagens.
 - Design responsivo.
 
-#### :point_right: Preview:
+Preview:
 
 <img src="gif-animado.gif"> </img>
 
-#### :point_right: Contato:
+Contato:
 
 Algum dúvida, elogio ou crítica? 
 

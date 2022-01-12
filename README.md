@@ -13,15 +13,13 @@ Repositório dedicado a pequenos projetos desenvolvidos como exercícios
 - [Jogo da Velha]( https://github.com/thalesonunes/pequenos-projetos/tree/main/jogo-da-velha/ )
 - [Lista de Tarefas]( https://github.com/thalesonunes/pequenos-projetos/tree/main/lista-de-tarefas/ )
 
-#### :point_right: Contato:
+####  Contato:
 
-Algum dúvida, elogio ou crítica? 
-
+Algum dúvida, elogio ou crítica?
 Não exite em entrar em contato. 
-
 Será um prazer conversar a respeito!
 
-<img src="https://thalesnunes.com.br/github/whatsapp.svg" width="35"> [Clique Aqui](https://api.whatsapp.com/send?phone=5535997438652)
+<img src="https://thalesnunes.com.br/github/whatsapp.svg" width="30"> [Clique Aqui](https://api.whatsapp.com/send?phone=5535997438652)
 
 
 
