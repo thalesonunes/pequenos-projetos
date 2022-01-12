@@ -14,8 +14,7 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 
 ### :rocket: Funcionalidades:
 
-# <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
-
+<img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/json--v1.png"/> <img src="https://img.icons8.com/color/48/000000/api.png"/>
 - Selecionar entre frases em português e inglês.
 - Ouvir a frase.
 - Copiar a frase para a área de transferência.
