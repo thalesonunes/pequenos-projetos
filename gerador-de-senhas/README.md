@@ -31,6 +31,7 @@ O projeto consiste em gerar senhas seguras.
 - For / Math.floor / Math.random para gerar senhas aleatórias.
 - Diversas functions.
 - Animation / @keyframes no CSS para transição de cor no background.
+- Entre outros...
 
 ------
 

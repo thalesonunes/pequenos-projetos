@@ -27,7 +27,7 @@ O projeto consiste em uma calculadora simples com estilo retrô.
 
 - Para o funcionamento da calculadora foi criada uma classe contendo métodos com as operações.
 - Para o display foi criada uma classe com todos os métodos necessários, inclusive o método construtor que instancia uma nova calculadora bem como as variáveis necessárias.
-
+- Entre outros...
 
 ------
 

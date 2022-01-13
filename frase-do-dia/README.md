@@ -30,6 +30,7 @@ O projeto consiste em gerar frases aleatórias e seus respectivos autores.
 - SpeechSynthesisUtterance para fazer a leitura das frases.
 - Background com transição de imagens.
 - Design responsivo.
+- Entre outros...
 
 ------
 

@@ -15,6 +15,7 @@ body{
 main {
     font-family: "Roboto Mono", monospace;
     position: relative;
+    margin-top: 150px;
 }
 
 .circle {
