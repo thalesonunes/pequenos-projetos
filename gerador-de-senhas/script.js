@@ -30,25 +30,13 @@ function getSymbol() {
 
 function generatePassword() {
 
+    if(lenEl.value > 18){
+        lenEl.value = 18;
+    }
+    
     const len = lenEl.value;
 
     let password = "";
-
-    // if (upperEl.checked) {
-    //     password += getUppercase();
-    // }
-
-    // if (lowerEl.checked) {
-    //     password += getLowercase();
-    // }
-
-    // if (numberEl.checked) {
-    //     password += getNumber();
-    // }
-
-    // if (symbolEL.checked) {
-    //     password += getSymbol();
-    // }
 
     for (let i = password.length; i < len; i++) {
         const x = generateX();

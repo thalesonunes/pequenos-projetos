@@ -19,11 +19,28 @@ body{
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+    animation: changeBackgroundColor 7s infinite ease-in-out;
 }
+
+@keyframes changeBackgroundColor {
+    0% {
+      background-color: rebeccapurple;
+    }
+    25% {
+      background-color: rgb(130, 10, 130);
+    }
+    75% {
+      background-color: rgb(51, 63, 153);
+    }
+    100% {
+      background-color: rebeccapurple;
+    }
+  }
 
 #titulo{
     font-size: 36px;
 }
+
 #subtitulo{
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 15px;
@@ -134,3 +151,4 @@ body{
     letter-spacing: 1pt;
     font-weight: 100;
 }
+

@@ -7,7 +7,7 @@ Este repositório está em constante atualização!  :wink:
 
 ------
 
-### :rocket: Projetos
+### :rocket: Projetos:
 
 - [Calculadora]( https://github.com/thalesonunes/pequenos-projetos/tree/main/calculadora/ )
 - [Cronômetro]( https://github.com/thalesonunes/pequenos-projetos/tree/main/cronometro/ )
