@@ -36,6 +36,7 @@ body{
     background: var(--light);
     width: 400px;
     border-radius: 10px;
+    box-shadow: 7px 7px 0px 3px #00000033;
 }
 
 .wrapper header{
@@ -77,7 +78,7 @@ header i{
     font-size: 18px;
 }
 
-.input-part .info-text{
+.input-part .info-txt{
     display: none;
     margin-bottom: 15px;
     font-size: 17px;
@@ -88,7 +89,7 @@ header i{
     color: black;
 }
 
-.info-text.error{
+.info-txt.error{
     display: block;
     color: #721c24;
     background-color: #f8d7da;
@@ -96,7 +97,7 @@ header i{
 
 }
 
-.info-text.pending{
+.info-txt.pending{
     display: block;
     color: #0c5460;
     background-color: #d1ecf1;
@@ -231,4 +232,16 @@ header i{
 .details p{
     font-size: 14px;
     margin-top: -5px;
+}
+
+/* =================================================================== */
+
+@media (max-width: 600px)
+{
+    .wrapper{
+        max-width: 400px;
+        min-width: 300px;
+        width: 90vw;
+    }
+
 }
