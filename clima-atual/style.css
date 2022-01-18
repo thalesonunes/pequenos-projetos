@@ -1,0 +1,234 @@
+/* Importando Fontes Externas */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Criando variáveis */
+:root{
+    --light: #e7e7e7;
+    --blue: #1D3D59;
+    --cyan: #04BFBF;
+    --green: #03A60E;
+    --yellow: #D9A404;
+    --brown: #594225;
+    --red: #B50000;
+}
+
+/* Resetando CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: var(--blue);
+}
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--blue);
+}
+
+.wrapper{
+    background: var(--light);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.wrapper header{
+    color: var(--cyan);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid var(--blue);
+
+    display: flex;
+    align-items: center;
+}
+
+header i{
+    cursor: pointer;
+    font-size: 0px;
+    margin-right: 8px;
+}
+
+.wrapper.active header i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.wrapper .input-part{
+    margin: 25px;
+}
+
+.wrapper.active .input-part{
+    display: none;
+}
+
+.input-part :where(input, button){
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.input-part .info-text{
+    display: none;
+    margin-bottom: 15px;
+    font-size: 17px;
+    background-color: var(--red);
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+}
+
+.info-text.error{
+    display: block;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+
+}
+
+.info-text.pending{
+    display: block;
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+
+}
+
+.input-part input{
+    text-align: center;
+    border: 1px solid var(--cyan);  
+}
+
+.input-part input:is(:focus, :valid){
+    text-align: center;
+    border: 2px solid var(--cyan);  
+}
+
+.input-part .separator{
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background-color: var(--yellow);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator::before{
+    content: "ou";
+    background-color: var(--light);
+    padding: 0 10px;
+    font-size: 18px;
+    color: var(--yellow);
+}
+
+.input-part button{
+    color: var(--light);
+    background-color: var(--cyan);
+    cursor: pointer;
+}
+
+/* =========================================== */
+
+
+.wrapper .weather-part{
+    margin: 30px 0 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper.active .weather-part{
+    display: flex;
+}
+
+.weather-part img{
+    max-width: 125px;
+}
+
+.weather-part .temp{
+    display: flex;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.weather-part .temp .numb{
+    font-weight: bold;
+}
+
+.weather-part .temp .deg{
+    font-size: 40px;
+    margin: 10px 5px 0 0;
+    display: block;
+}
+
+.weather-part .weather{
+    font-size: 21px;
+    text-align: center;
+    margin: -5px 20px 15px;
+}
+
+.weather-part .location{
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.location i {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.weather-part .bottom-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--blue);
+}
+
+.bottom-details .column{
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.column i{
+    color: var(--cyan);
+    font-size: 40px;
+}
+
+.column.humidity{
+    border-left: 1px solid var(--blue);
+}
+
+.details .temp, .humidity span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.details .temp .deg{
+    margin: 0;
+    font-size: 17px;
+    padding: 0 2px 0 1px;
+}
+
+.details p{
+    font-size: 14px;
+    margin-top: -5px;
+}
