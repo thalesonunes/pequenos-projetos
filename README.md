@@ -10,6 +10,7 @@ Este repositório está em constante atualização!  :wink:
 ### :rocket: Projetos:
 
 - [Calculadora]( https://github.com/thalesonunes/pequenos-projetos/tree/main/calculadora/ )
+- [Clima Atual]( https://github.com/thalesonunes/pequenos-projetos/tree/main/clima-atual/ )
 - [Cronômetro]( https://github.com/thalesonunes/pequenos-projetos/tree/main/cronometro/ )
 - [Frase do Dia]( https://github.com/thalesonunes/pequenos-projetos/tree/main/frase-do-dia/ )
 - [Gerador de Senhas]( https://github.com/thalesonunes/pequenos-projetos/tree/main/gerador-de-senhas/ )
