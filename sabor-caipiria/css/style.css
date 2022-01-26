@@ -55,6 +55,10 @@ p{
     margin: 7px auto;
 }
 
+img{
+    display: block;
+}
+
 
 /* Header */
 .header {
@@ -93,7 +97,7 @@ p{
 
 /* Introdução */
 .introducao{
-    margin-top: 96px;
+    margin-top: 92px;
     width: 100%;
     height: 380px;
     background: url(../img/bg.jpg) no-repeat center;
@@ -174,6 +178,10 @@ p{
     padding: 20px;
 }
 
+.produtos-icone img{
+    margin: 0 auto;
+}
+
 .call{
     text-align: center;
     padding-top: 40px;
@@ -207,3 +215,128 @@ p{
 .portfolio .call p{
     color: #fff;
 }
+
+/* Qualidade */
+
+.qualidade{
+    padding: 60px 0;
+}
+
+.qualidade::after{
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 198px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade img{
+    margin: 0 auto;
+}
+
+.qualidade-lista{
+    padding-top: 20px;
+}
+
+.qualidade-lista li{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade-lista li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidade-lista li h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px auto;
+}
+
+/* Quebra */
+
+.quebra{
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra .quote-externo{
+    max-width: 400px;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+
+    padding: 20px 0;
+}
+
+.footer h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: var(--yellow);
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--yellow);
+    margin: 6px 0 12px 0;
+}
+
+.footer-historia{
+    padding-right: 40px;
+}
+
+.footer-contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-redes ul li{
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.footer-redes ul li a{
+    display: block;
+    border: 3px solid var(--yellow);
+    padding: 10px;
+}
+
+.footer-redes ul li a:hover{
+    border-color: #fff;
+}
+
+.copy{
+    background-color: var(--yellow);
+    width: 100%;
+    padding: 20px 0;
+}
+
+
