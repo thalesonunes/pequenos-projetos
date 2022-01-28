@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Sabor Caipira</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script> document.documentElement.classList.add("js"); </script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="img/sabor-caipira-logotipo.svg" alt="Logotipo Sabor Capira">
+				</a>
+				<nav class="header-menu grid-12">
+					<ul>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="portfolio.html">Portfólio</a></li>
+						<li><a href="contato.html" class="menu-ativo">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="introducao-interna interna-contato" data-anime="200">
+			<div class="container">
+				<h1 class="fadeInDown" data-anime="400">Contato</h1>
+				<p class="fadeInDown" data-anime="600">Está com dúvidas? <br> Fale a com a gente!</p>
+			</div>
+		</section>
+
+
+		
+		<section class="contato container" data-anime="1000">
+
+			<form id="form-orcamento" method="post" action="./enviar.php" class="contato-form grid-8 formphp">
+
+				<!-- Pega Spam -->
+				<label class="nao-aparece">Se você não é um robô, deixe em branco!</label>
+				<input class="nao-aparece" type="text" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude esse campo!</label>
+				<input class="nao-aparece" type="text" name="dontchange" value="http://">
+
+				<!-- Formulário Real -->
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" name="telefone" required>
+
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+
+				<button id="enviar" name="enviar" class="btn btn-preto" type="submit">Enviar</button>
+
+			</form>
+
+			<div class="contato-dados grid-8">
+
+				<h3>Dados</h3>
+				<p>+55 35 99134 3410</p>
+				<p>contato@saborcaipira.com.br</p>
+				<p>Rua Suécia 29, Jardim Panorama</p>
+				<p>Passos - MG - Brasil</p>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li>
+						<a href="http://facebook.com" target="_blank"> 
+							<img src="img/redes-sociais/facebook.png" alt="Facebook"> 
+						</a> 
+					</li>
+					<li> 
+						<a href="http://instagram.com" target="_blank"> 
+							<img src="img/redes-sociais/instagram.png" alt="Instagram"> 
+						</a> 
+					</li>
+					<li>
+						<a href="http://twitter.com" target="_blank"> 
+							<img src="img/redes-sociais/twitter.png" alt="Twitter"> 
+						</a> 
+					</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+		<section class="container contato-mapa" data-anime="1400">
+			<a href="https://www.google.com.br/search?q=sabor+caipira+passos+mg&tbm=lcl&ei=RSP0Ye62As675OUPuuqE6A0&oq=sabor+caipira+passos+mg&gs_l=psy-ab.3..33i160k1.10640.11823.0.11882.10.7.0.0.0.0.175.520.0j3.3.0....0...1c.1.64.psy-ab..7.3.519...0i67k1j0i512k1.0.7DRISo6WWSs#rlfi=hd:;si:;mv:[[-20.70866942268097,-46.61336369102658],[-20.709029377319027,-46.61374850897343]]" target="_blank" class="grid-16">
+				<img src="img/endereco.jpg" alt="Endereço Sabor Caipira">
+			</a>
+		</section>
+	
+		<section class="quebra">
+			<blockquote class="quote-externo container">
+				<p>"O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana."</p>
+				<cite>William Morris</cite>
+			</blockquote>
+		</section>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 footer-historia">
+						<h3>Nossa História</h3>
+						<p>"Sabor Caipira busca brindar as pessoas com momentos especiais e dar a sua contribuição para a melhoria ao mundo que habitamos."</p>
+					</div>
+
+					<div class="grid-4 footer-contato">
+						<h3>Contato</h3>
+						<ul>
+							<li>+55 35 99134 3410</li>
+							<li>contato@saborcaipira.com.br</li>
+							<li>Passos/MG</li>
+						</ul>
+					</div>
+
+					<div class="grid-4 footer-redes">
+						<h3>Redes Sociais</h3>
+						<ul>
+							<li>
+								<a href="http://facebook.com" target="_blank"> 
+									<img src="./img/redes-sociais/facebook.png" alt="Facebook"> 
+								</a> 
+							</li>
+							<li> 
+								<a href="http://instagram.com" target="_blank"> 
+									<img src="./img/redes-sociais/instagram.png" alt="Instagram"> 
+								</a> 
+							</li>
+							<li>
+								<a href="http://twitter.com" target="_blank"> 
+									<img src="img/redes-sociais/twitter.png" alt="Twitter"> 
+								</a> 
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copy">
+				<div class="container">
+					<p class="grid-16">Sabor Caipira 2022 - Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/simple-anime.js"></script>
+		<script src="./js/simple-form.js"></script>
+		<script src="./js/simple-slide.js"></script>
+		<script src="./js/script.js"></script>
+
+	</body>
+</html>

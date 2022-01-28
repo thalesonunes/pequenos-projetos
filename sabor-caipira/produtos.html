@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Sabor Caipira</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script> document.documentElement.classList.add("js"); </script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="img/sabor-caipira-logotipo.svg" alt="Logotipo Sabor Capira">
+				</a>
+				<nav class="header-menu grid-12">
+					<ul>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="produtos.html" class="menu-ativo">Produtos</a></li>
+						<li><a href="portfolio.html">Portfólio</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="introducao-interna interna-produtos" data-anime="200">
+			<div class="container">
+				<h1 class="fadeInDown" data-anime="400">Produtos</h1>
+				<p class="fadeInDown" data-anime="600">Conheça um pouco mais <br> os nossos produtos!</p>
+			</div>
+		</section>
+
+		<section class="container produto-item">
+
+			<div class="grid-11" data-anime="800">
+				<img src="img/produtos/doce1.jpg" alt="Doce 1">
+				<h2>Doces</h2>
+			</div>
+
+			<div class="grid-5 produto-icone" data-anime="1000">
+				<img src="img/produtos/doce.svg" alt="Doce ícone">
+			</div>
+
+			<div class="grid-8" data-anime="1200">
+				<img src="img/produtos/doce2.jpg" alt="Doce 2">
+			</div>
+
+			<div class="grid-8 produto-info" data-anime="1400">
+				<p>Os mais variados doces caseiros feitos com muito carinho e dedicação de quem compreende o valor de um docinho no capricho.</p>
+				<ul>
+					<li>Doce na Palha</li>
+					<li>Leite Cremoso</li>
+					<li>Goiabada</li>
+					<li>Abóbora ao Côco</li>
+				</ul>
+			</div>
+
+		</section>
+
+		<section class="container produto-item">
+			<div class="grid-11">
+				<img src="img/produtos/bolo1.jpg" alt="Bolo 1">
+				<h2>Bolos</h2>
+			</div>
+			<div class="grid-5 produto-icone">
+				<img src="img/produtos/bolo.svg" alt="Bolo - ícone">
+			</div>
+			<div class="grid-8">
+				<img src="img/produtos/bolo2.jpg" alt="Bolo 2">
+			</div>
+			<div class="grid-8 produto-info">
+				<p>Apesar das receitas de bolos incrementados serem incríveis, um bolo caseiro bem feito ainda é imbatível. Nossos bolos sempre vêm com aquele gostinho de comidinha de vó, e são perfeitos para acompanhar um cafézinho..</p>
+				<ul>
+					<li>Milho</li>
+					<li>Chocolate</li>
+					<li>Goiabada</li>
+					<li>Côco</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="container produto-item">
+			<div class="grid-11">
+				<img src="img/produtos/cafe1.jpg" alt="Retro 1">
+				<h2>Cafés</h2>
+			</div>
+			<div class="grid-5 produto-icone">
+				<img src="img/produtos/cafe.svg" alt="Retro 1 - ícone">
+			</div>
+			<div class="grid-8">
+				<img src="img/produtos/cafe2.jpg" alt="Retro 2">
+			</div>
+			<div class="grid-8 produto-info">
+				<p>Como bons mineiros, sabemos apreciar um bom cafezinho. Esses são apenas alguns tipos que poderá apreciar conosco.</p>
+				<ul>
+					<li>A Moda Antiga</li>
+					<li>Expresso</li>
+					<li>Capuccino</li>
+					<li>Mocha</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="orcamento">
+			<div class="container">
+				<h2 class="subtitulo">Encomendas</h2>
+
+				<form id="form-orcamento" method="post" action="./enviar.php" class="form grid-8 formphp">
+
+					<!-- Pega Spam -->
+					<label class="nao-aparece">Se você não é um robô, deixe em branco!</label>
+					<input class="nao-aparece" type="text" name="leaveblank">
+					<label class="nao-aparece">Se você não é um robô, não mude esse campo!</label>
+					<input class="nao-aparece" type="text" name="dontchange" value="http://">
+	
+					<!-- Formulário Real -->
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome" required>
+	
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required>
+	
+					<label for="telefone">Telefone</label>
+					<input type="text" id="telefone" name="telefone" required>
+	
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" name="mensagem" required></textarea>
+	
+					<button id="enviar" name="enviar" class="btn" type="submit">Enviar</button>
+	
+				</form>
+
+				<div class="orcamento-dados grid-8">
+
+					<h3>Dados</h3>
+					<p>+55 35 99134 3410</p>
+					<p>contato@saborcaipira.com.br</p>
+
+					<h3>Faça sua encomenda</h3>
+					<p>Indicações da semana:</p>
+					<ul>
+						<li>Bolo de cenoura</li>
+						<li>Café ao leite</li>
+						<li>Doce de abóbora com côco</li>
+						<li>Broa de pau a pique</li>
+						<li>e muitos mais...</li>
+					</ul>
+				</div>
+			</div>
+		</section>		
+
+		<section class="quebra">
+			<blockquote class="quote-externo container">
+				<p>"O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana."</p>
+				<cite>William Morris</cite>
+			</blockquote>
+		</section>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 footer-historia">
+						<h3>Nossa História</h3>
+						<p>"Sabor Caipira busca brindar as pessoas com momentos especiais e dar a sua contribuição para a melhoria ao mundo que habitamos."</p>
+					</div>
+
+					<div class="grid-4 footer-contato">
+						<h3>Contato</h3>
+						<ul>
+							<li>+55 35 99134 3410</li>
+							<li>contato@saborcaipira.com.br</li>
+							<li>Passos/MG</li>
+						</ul>
+					</div>
+
+					<div class="grid-4 footer-redes">
+						<h3>Redes Sociais</h3>
+						<ul>
+							<li>
+								<a href="http://facebook.com" target="_blank"> 
+									<img src="./img/redes-sociais/facebook.png" alt="Facebook"> 
+								</a> 
+							</li>
+							<li> 
+								<a href="http://instagram.com" target="_blank"> 
+									<img src="./img/redes-sociais/instagram.png" alt="Instagram"> 
+								</a> 
+							</li>
+							<li>
+								<a href="http://twitter.com" target="_blank"> 
+									<img src="img/redes-sociais/twitter.png" alt="Twitter"> 
+								</a> 
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="copy">
+				<div class="container">
+					<p class="grid-16">Sabor Caipira 2022 - Todos os direitos reservados.</p>
+				</div>
+			</div>
+			
+		</footer>
+
+		<script src="./js/simple-anime.js"></script>
+		<script src="./js/simple-form.js"></script>
+		<script src="./js/simple-slide.js"></script>
+		<script src="./js/script.js"></script>
+
+	</body>
+</html>
