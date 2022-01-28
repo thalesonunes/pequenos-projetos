@@ -223,6 +223,7 @@ img{
     background-color: var(--amarelo);
     text-align: center;
     border-radius: 20px;
+    height: 100%;
 }
 
 .produtos-lista li h3{
@@ -412,6 +413,7 @@ img{
     width: 100%;
     padding: 20px 0;
     color: var(--amarelo);
+    text-align: center;
 }
 
 
