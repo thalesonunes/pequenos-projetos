@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background: linear-gradient(0deg, rgb(36, 53, 90) 0%, rgb(71, 202, 228) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,9 +19,19 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+body h2{
+  color: #ffffff;
+  font-size: 32px;
+  margin: 0 0 15px 0;
+}
+
 .container {
-  margin: 30px auto;
+  margin: 0 auto;
   width: 350px;
+  padding: 20px;
+  background-color:#d3e2da;
+  border-radius: 15px;
+  box-shadow: 7px 7px 0px 5px #00000033;
 }
 
 h1 {
@@ -48,6 +58,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  border-radius: 10px;
 }
 
 .inc-exp-container > div {
@@ -86,19 +97,25 @@ input[type='number'] {
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  border-radius: 5px;
 }
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #4c1697;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 10px 0 30px;
+  margin: 30px 0 20px 0;
   padding: 10px;
   width: 100%;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: #2e75cc;
 }
 
 .btn:focus,
@@ -121,14 +138,16 @@ input[type='number'] {
   position: relative;
   padding: 10px;
   margin: 10px 0;
+  border-radius: 5px;
+  transition: margin 0.3s ease;
 }
 
 .transactions li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 10px solid #2ecc71;
 }
 
 .transactions li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 10px solid #c0392b;
 }
 
 .delete-btn {
@@ -145,8 +164,19 @@ input[type='number'] {
   transform: translate(-100%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  border-radius: 5px 0 0 5px;
 }
 
 .transactions li:hover .delete-btn {
   opacity: 1;
+  border-radius: 5px 0 0 5px;
+}
+
+.transactions li:hover{
+  margin-left: 20px;
+}
+
+.form-control small{
+  font-size: 12px;
+  color: rgb(87, 87, 87);
 }
