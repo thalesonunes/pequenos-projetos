@@ -9,7 +9,7 @@ require "./PHPMailer/src/SMTP.php";
 
 // Mudar Aqui o e-mail
 $email_envio = "email@thalesnunes.com.br"; // E-mail do site (ex: contato@seusite.com)
-$email_pass = ""; // Senha do e-mail
+$email_pass = "uZuBd3.k9i48A9K"; // Senha do e-mail
 
 $site_name = "Thales Nunes"; // Nome do Site
 $site_url = "thalesnunes.com.br"; // URL do Site

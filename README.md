@@ -9,13 +9,15 @@ Este repositório está em constante atualização!  :wink:
 
 ### :rocket: Projetos:
 
+- [Site Sabor Caipira]( https://github.com/thalesonunes/pequenos-projetos/tree/main/sabor-caipira/ )
 - [Calculadora]( https://github.com/thalesonunes/pequenos-projetos/tree/main/calculadora/ )
 - [Clima Atual]( https://github.com/thalesonunes/pequenos-projetos/tree/main/clima-atual/ )
-- [Cronômetro]( https://github.com/thalesonunes/pequenos-projetos/tree/main/cronometro/ )
+- [Controle de Despesas]( https://github.com/thalesonunes/pequenos-projetos/tree/main/controle-de-despesas/ )
 - [Frase do Dia]( https://github.com/thalesonunes/pequenos-projetos/tree/main/frase-do-dia/ )
 - [Gerador de Senhas]( https://github.com/thalesonunes/pequenos-projetos/tree/main/gerador-de-senhas/ )
 - [Jogo da Velha]( https://github.com/thalesonunes/pequenos-projetos/tree/main/jogo-da-velha/ )
 - [Lista de Tarefas]( https://github.com/thalesonunes/pequenos-projetos/tree/main/lista-de-tarefas/ )
+- [Cronômetro]( https://github.com/thalesonunes/pequenos-projetos/tree/main/cronometro/ )
 
 ------
 
