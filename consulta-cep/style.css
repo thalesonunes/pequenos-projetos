@@ -1,0 +1,175 @@
+/* Importando Fonts Externas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/* Criando variáveis */
+:root{
+    --branco: #e7e7e7;
+    --tom-escuro: rgb(22, 33, 77);
+    --tom-claro: rgb(0, 130, 191);
+    --auxiliar1: rgb(38, 2, 67);
+    --auxiliar2: rgb(6, 163, 142);
+    --erro: rgb(136, 0, 0);
+}
+
+/* Resetando CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: var(--tom-escuro);
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    animation: changeBackgroundColor 30s infinite ease-in-out;
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+      background-color: var(--tom-escuro);
+    }
+    50% {
+      background-color: var(--tom-claro);
+    }
+    100% {
+      background-color: var(--tom-escuro);
+    }
+  }
+
+#titulo{
+    font-size: 36px;
+}
+
+#subtitulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 1pt;
+}
+
+.container{
+    background-color: var(--auxiliar1);
+    box-shadow: 3px 3px 0px 3px #00000033;
+    min-width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.container input{
+    line-height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container input::placeholder{
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--tom-claro);
+  letter-spacing: 1px;
+}
+
+.resultado{
+  background-color: var(--tom-claro);
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 10px 20px 2px 20px;
+  border-radius: 5px;
+  min-height: 30px;
+}
+
+.resultado-erro{
+  text-align: center;
+  background-color: var(--erro);
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 30px;
+  font-size: 14px;
+}
+
+.resultado-titulo{
+  color: var(--tom-escuro);
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.resultado-valor{
+  width: 100%;
+  color: var(--branco);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--auxiliar2);
+    border: none;
+    color: var(--tom-escuro);
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 3px #00000033;
+}
+
+.btn:active{
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+#rodape{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1pt;
+    font-weight: 100;
+}
+
+.off{
+  display:none;
+}
+
+/* INPUT ARROWS */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* INPUT PLACEHOLDER */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+  color: transparent;  
+}
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+  color: transparent;  
+}
+input:focus:-ms-input-placeholder {  
+  color: transparent;  
+}
+
